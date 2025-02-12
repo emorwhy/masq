@@ -10,6 +10,7 @@ const keys = JSON.parse(process.env.PSK);
 
 const activeLicences = new Map();;
 
+console.log("Server started..."),
 /**
  * @description Route for /newLicense which handles ID generation
  * @param {http.IncomingMessage} req 
